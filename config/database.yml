@@ -1,0 +1,15 @@
+
+development:
+  adapter: postgresql
+  database: testmodel
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: testmodel_test
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: testmodel_production
+  host: localhost
